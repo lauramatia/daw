@@ -1,0 +1,398 @@
+body {
+    width: 992px;
+    margin: auto;
+}
+
+.wrapper {
+    padding: 50px;
+    background: #e3e5e5;
+}
+
+.h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+}
+
+/* LOGOS */
+.logos-wrapper {
+
+}
+
+.logos {
+    display: flex;
+}
+
+.logo {
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.l-desktop {
+    width: 33.333%;
+    float: left;
+}
+
+.l-tablet {
+    width: 33.333%;
+    float: left;
+}
+
+.l-mobile {
+    width: 33.333%;
+    float: left;
+}
+
+.logo .desktop {
+    width: 315px;
+}
+
+.logo .tablet {
+    width: 226px;
+}
+
+.logo .mobile {
+    width: 128px;
+}
+
+.logo-type {
+    display: flex;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.logo-type p {
+    width: 33.333%;
+    float: left;
+    text-align: center;
+    margin-left: 40px;
+}
+
+/* COLORS */
+.colors-wrapper {
+
+}
+
+.colors {
+    display: flex;
+}
+
+.color {
+    width: 25%;
+    text-align: center;
+    margin: 30px 10px 10px;
+    background: white;
+}
+
+.tone {
+    display: flex;
+    height: 80px;
+}
+
+.light-grey {
+    background: #e3dad0;
+}
+
+.orange {
+    background: #fa8405;
+}
+
+.green1 {
+    width: 50%;
+    float: left;
+    background: #26854b;
+}
+
+.green2 {
+    width: 50%;
+    float: left;
+    background: #35a44e;
+}
+
+.blue1 {
+    width: 50%;
+    float: left;
+    background: #144484;
+}
+
+.blue2 {
+    width: 50%;
+    float: left;
+    background: #4c74a2;
+}
+
+.h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.hex {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+/* TYPOGRAPHY */
+.typography-wrapper {
+
+}
+
+.typography {
+    display: flex;
+}
+
+.headings {
+    width: 70%;
+    float: left;
+}
+
+.heading1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+}
+
+.heading2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+}
+
+.heading3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+}
+
+.heading4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.heading5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.font1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    margin-top: -55px;
+}
+
+.font2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    margin-top: -38px;
+}
+
+.font3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    margin-top: -30px;
+}
+
+.font4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    margin-top: -22px;
+}
+
+.font5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    margin-top: -18px;
+}
+
+.body-text {
+    width: 30%;
+    float: left;
+}
+
+.lorem {
+    font-family: 'PT Serif', serif;
+    padding-top: 40px;
+}
+
+.type {
+    font-family: 'PT Serif', serif;
+    text-align: center;
+}
+
+/* BUTTONS */
+.buttons-wrapper {
+
+}
+
+.buttons {
+    display: flex;
+}
+
+.styling {
+    width: 70%;
+    float: left;
+}
+
+.styling-btn {
+    display: flex;
+}
+
+.green-btn {
+    width: 50%;
+    float: left;
+    padding: 40px;
+}
+
+.blue-btn {
+    width: 50%;
+    float: left;
+    padding: 40px;
+}
+
+.green-normal, .green-hover, .green-active {
+    width: 150px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: white;
+    border: 2px solid #4CAF50;
+}
+
+.green-hover:hover {
+    width: 150px;
+    border: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #35a44e;
+    opacity: 0.80;
+}
+
+.green-active:active {
+    width: 150px;
+    border: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #35a44e;
+}
+
+.blue-normal, .blue-hover, .blue-active {
+    width: 150px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: white;
+    border: 2px solid #144484;
+}
+
+.blue-hover:hover {
+    width: 150px;
+    border: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #144484;
+    opacity: 0.80;
+}
+
+.blue-active:active {
+    width: 150px;
+    border: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #144484;
+}
+
+.sizing {
+    width: 30%;
+    float: left;
+    padding-left: 40px;
+}
+
+.sizing-btn {
+    padding-top: 40px;
+
+}
+
+.btn-desktop {
+    width: 260px;
+    height: 50px;
+    border: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    padding-left: 20px;
+    text-align: initial;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #e3dad0;
+}
+
+.btn-tablet {
+    width: 200px;
+    height: 45px;
+    border: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    padding-left: 20px;
+    text-align: initial;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #e3dad0;
+}
+
+.btn-mobile {
+    width: 130px;
+    height: 40px;
+    border: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    padding-left: 20px;
+    text-align: initial;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #e3dad0;
+}
+
+.btn-size {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+}
+
+/* ICONOGRAPHY */
+.icons {
+    padding-left: 30px;
+    margin-top: 30px;
+}
+
+.icons i {
+    width: 50px;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Laura Matía Estépar">
+    <meta name="generator" content="PhpStorm 2019.3">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Tablas II">
+    <meta name="description" content="Tablas II">
+    <meta name="keywords" content="html, daw, desarrollo web, repaso">
+    <link rel="stylesheet" href="../css/miestilo.css" type="text/css">
+    <title>Tablas II</title>
+</head>
+<body>
+<div id="menu">
+    <a href="07-tablas-1.html"><< Anterior</a> |
+    <a href="../index.html"> Portada</a> |
+    <a href="09-formularios-1.html"> Siguiente >></a>
+</div>
+<h1 id="titulo">Tablas II</h1>
+<hr>
+<p>Dos atributos bastante utilizados en las tablas son <b>rowspan</b> y <b>colspan</b>, ambos nos permiten fusionar
+    celdas para conseguir tablas más complejas:</p>
+<ul>
+    <li><strong>Tabla con dos columnas simpleas fusionadas</strong>, empleando <i><b>colspan</b></i></li>
+</ul>
+<table border="2px">
+    <tr>
+        <td colspan="2">Las dos columnas fusionadas</td>
+    </tr>
+    <tr>
+        <td>Celda normal</td>
+        <td>Celda normal</td>
+    </tr>
+</table>
+<ul>
+    <li><strong>Tabla con dos filas simples fusionadas</strong>, empleando <i><b>rowspan</b></i></li>
+</ul>
+<table border="2px">
+    <tr>
+        <td>Celda normal</td>
+        <td rowspan="2">Las dos filas fusionadas</td>
+    </tr>
+    <tr>
+        <td>Celda normal</td>
+    </tr>
+</table>
+<br><br>
+<h2>COMPARATIVA DE REPRODUCTORES MP3</h2>
+<table border="2px">
+    <caption>Tabla comparativa de las características técnicas de los reproductores MP3</caption>
+    <tr>
+        <th></th>
+        <th colspan="3"><img src="../img/mp3.jpg" alt="mp3 mini" width="4%"><br>MP3 mini</th>
+        <th colspan="2"><img src="../img/mp3.jpg" alt="mp3 grande" width="7%"><br>MP3 grande</th>
+    </tr>
+    <tr>
+        <th>Capacidad de almacenamiento</th>
+        <td>4GB<br>(1000 canciones)</td>
+        <td>8GB<br>(2000 canciones)</td>
+        <td>16GB<br>(4000 canciones)</td>
+        <td>30GB<br>(7500 canciones)</td>
+        <td>80GB<br>(20000 canciones)</td>
+    </tr>
+    <tr>
+        <th>Opinión de los usuarios</th>
+        <td><img src="../img/est2.jpg" alt="valoración 2/5 estrellas" width="50%"></td>
+        <td><img src="../img/est3.jpg" alt="valoración 3/5 estrellas" width="50%"></td>
+        <td><img src="../img/est4.jpg" alt="valoración 4/5 estrellas" width="50%"></td>
+        <td><img src="../img/est4.jpg" alt="valoración 4/5 estrellas" width="35%"></td>
+        <td><img src="../img/est5.jpg" alt="valoración 5/5 estrellas" width="35%"></td>
+    </tr>
+    <tr>
+        <th>Pantalla</th>
+        <td colspan="3">LCD de 3cm (diagonal) con retroiluminación</td>
+        <td colspan="2">LCD de 6cm (diagonal) con retroiluminación</td>
+    </tr>
+    <tr>
+        <th rowspan="2">Tiempo de carga</th>
+        <td rowspan="2" colspan="3">Unas 3 horas</td>
+        <td colspan="2">Unas 4 horas</td>
+    </tr>
+    <tr>
+        <td colspan="2">Unas 2 horas para alcanzar el 80% de la capacidad</td>
+    </tr>
+</table>
+<br><br><br>
+<hr>
+<p align="right"><img src="../img/triangulo.png" alt="triangulo" width="0.75%"><a href="#titulo">SUBIR</a></p>
+</body>
+</html>

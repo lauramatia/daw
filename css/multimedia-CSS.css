@@ -1,0 +1,106 @@
+body {
+    width: 992px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: #333;
+    margin: auto;
+    background: #000000;
+}
+h1 {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+}
+h2 {
+    font-family: 'Cinzel', serif;
+    color: #bec6c7;
+    font-size: 30px;
+}
+.fondo-img {
+    background-image: url("../img/fondo-img.png");
+    background-repeat: no-repeat;
+}
+.menu {
+    padding-left: 3%;
+    padding-top: 2%;
+}
+.title {
+    color: #bec6c7;
+    padding: 3%;
+}
+.content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.poster {
+    width: auto;
+    float: left;
+    display:inline-block;
+}
+.img {
+    width: 400px;
+}
+.data {
+    padding-left: 4%;
+    float: left;
+    display:inline-block;
+}
+.titu {
+    width: 100%;
+    align-content: center;
+}
+.fa-list-alt, .fa-info-circle, .fa-microphone {
+    float: left;
+    color: #bec6c7;
+}
+.contenido {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #969b9d;
+}
+
+.nombre {
+    font-family: 'Noto Sans SC', sans-serif;
+    color: #ccd5d6;
+}
+.video {
+    padding-top: 4.5%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+a:link {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #4c6474;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:visited {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #4c6474;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #4c6474;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:active {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #4c6474;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+}

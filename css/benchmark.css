@@ -1,0 +1,140 @@
+
+body {
+    background: #FFFFF5;
+}
+h1 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+}
+.menu {
+    text-align: initial;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.wireframe {
+    text-align: end;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+h3 {
+    text-align: initial;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+}
+.part1 {
+    margin-top: 50px;
+}
+.part1 .column {
+    text-align: center;
+    background: #dedede;
+    padding-bottom: 5px;
+}
+.sysinfo .content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.sysinfo .content .column {
+    flex: 32%;
+    max-width: 33.33333333%;
+    margin: 5px;
+}
+.benchmark .content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.benchmark .content .column {
+    flex: 24%;
+    max-width: 25%;
+    margin: 5px;
+}
+.total .content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.total .content .column {
+    flex: 100%;
+    max-width: 100%;
+    margin: 5px;
+}
+.tit {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+.dat {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+.button {
+    background-color: white;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    border: 2px solid #008CBA;
+}
+.part2 .content {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 30px;
+}
+.part2 .content .column {
+    flex: 25%;
+    max-width: 25%;
+}
+.part2 p {
+    text-align: center;
+}
+.part2 .iframe {
+    margin-top: 30px;
+    text-align: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.titu {
+    align-content: center;
+}
+.fas  {
+    width: 15px;
+    float: left;
+    color: #282828;
+}
+
+@media (max-width: 920px) {
+    .sysinfo .content .column {
+        flex: 48%;
+        max-width: 50%;
+    }
+    .benchmark .content .column {
+        flex: 48%;
+        max-width: 50%;
+    }
+    .part2 .content .column {
+        flex: 48%;
+        max-width: 50%;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .sysinfo .content .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .benchmark .content .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .part2 .content .column {
+        flex: 100%;
+        max-width: 100%;
+        margin-top: 20px;
+    }
+}

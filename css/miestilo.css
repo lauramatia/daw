@@ -1,0 +1,111 @@
+@charset "utf-8";
+body {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: #333;
+}
+
+h1 {
+    font-size: 2em;
+    color: #069;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.6em;
+    color: #09F;
+    text-align: center;
+}
+
+p {
+    font-family: "Courier New", Courier, monospace;
+    text-indent: 20px;
+    font-size: 1.1em;
+}
+
+h3 {
+    text-indent: 20px;
+}
+
+iframe {
+    margin:auto;
+    display:block;
+}
+
+/*estilo para los enlaces*/
+a:link {
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    color: #FF0000;
+    text-decoration: none;
+}
+
+a:visited {
+    font-family: Arial;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: normal;
+    color: #00FF00;
+    text-decoration: line-through;
+}
+
+a:hover {
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    color: #0000FF;
+    text-decoration: underline;
+}
+
+a:active {
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    color: #FFFF00;
+    text-decoration: none;
+}
+
+.centrado {
+    text-align: center;
+    color: #000;
+    font-size: 1.2em;
+}
+
+.miparrafo {
+    line-height: 30px;
+    text-align: justify;
+    text-indent: 50px;
+    color: #333333;
+    font-family: "Trebuchet MS";
+}
+
+#titular {
+    color: #FFFFFF;
+    font-family: Verdana;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #333333;
+    letter-spacing: 1.1em;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#imagenpeq {
+    height: 150px;
+    width: 100px;
+}
+
+.tit {
+    text-align: center;
+}
+
+.confondo, .sinfondo {
+    width: 250px;
+}
+
+.list {
+    margin-left: 100px;
+}

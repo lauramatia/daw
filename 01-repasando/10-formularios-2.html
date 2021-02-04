@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Laura Matía Estépar">
+    <meta name="generator" content="PhpStorm 2019.3">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Formularios II">
+    <meta name="description" content="Formularios II">
+    <meta name="keywords" content="html, daw, desarrollo web, repaso">
+    <link rel="stylesheet" href="../css/miestilo.css" type="text/css">
+    <title>Formularios II</title>
+</head>
+<body>
+<div id="menu">
+    <a href="09-formularios-1.html"><< Anterior</a> |
+    <a href="../index.html"> Portada</a> |
+    <a href="11-iframes.html"> Siguiente >></a>
+</div>
+<h1 id="titulo">Subasta online</h1>
+<hr>
+<form name="form2" method="post" enctype="text/plain" action="mailto:lmatia@alumnos.imf.com">
+    <fieldset>
+        <legend>Datos básicos</legend>
+        <br>
+        Nombre <br>
+        <input type="text" name="nombre"><br><br>
+        Descripción<br>
+        <textarea id="descripcion" name="descripcion" cols="40" rows="5"></textarea><br><br>
+        Foto <input type="file" name="foto"><br><br>
+        <input type="checkbox" name="contador" value=""> Añadir contador de visitas
+    </fieldset>
+    <fieldset>
+        <legend>Datos económicos</legend>
+        <br>
+        Precio <input type="text" name="precio"> € Impuestos
+        <select id="lista" name="impuestos">
+            <option value="4%" selected>4%</option>
+            <option value="7%">7%</option>
+            <option value="16%">16%</option>
+            <option value="25%">25%</option>
+        </select><br><br>
+        Promoción<br>
+        <input type="radio" name="promo" value="Ninguno"> Ninguno<br>
+        <input type="radio" name="promo" value="Transporte gratuito"> Transporte gratuito<br>
+        <input type="radio" name="promo" value="Descuento 5%"> Descuento 5%<br>
+    </fieldset>
+    <br><br>
+    <input type="image" alt="submit" name="enviar" src="../img/triangulo.png" value="Enviar" width="3%">ENVIAR
+</form>
+<br><br><br>
+<hr>
+<p align="right"><a href="#titulo">SUBIR</a></p>
+</body>
+</html>

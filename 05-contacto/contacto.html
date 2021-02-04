@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Laura Matía Estépar">
+	<meta name="generator" content="PhpStorm 2020.2">
+	<title>Contacto</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="title" content="Formulario de contacto">
+	<meta name="description" content="Formulario de contacto">
+	<meta name="keywords" content="Formulario">
+	<!-- ESTILOS -->
+	<link rel="stylesheet" href="../css/contacto.css" type="text/css">
+	<!-- GOOGLE FONTS -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+	<!-- SCRIPTS -->
+	<script src="https://kit.fontawesome.com/d65be2c26c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="main">
+
+        <div class="menu">
+            <a href="../index.html">VOLVER</a>
+        </div>
+
+		<div class="tit">
+			<i class="far fa-id-badge fa-3x"></i>
+			<h1>Formulario de contacto</h1>
+		</div>
+
+		<form action="enviar.php" method="post">
+
+			<label for="nombre" hidden>Nombre</label>
+			<input type="text" name="nombre" id="nombre" placeholder="Nombre" maxlength="20" pattern="[a-zA-Z0-9]+" required autofocus title="Sólo números y letras con una longitud máxima de 20 caracterees incluidos espacios en blanco">
+
+			<label for="telefono" hidden>Número de teléfono</label>
+			<input type="text" name="telefono" id="telefono" placeholder="Número de teléfono" pattern="[0-9]{9}" required title="Sólo 9 números del 0 al 9">
+
+			<label for="correo" hidden>Correo</label>
+			<input type="email" name="correo" id="correo" placeholder="Correo">
+
+			<label for="mensaje" hidden>Mensaje</label>
+			<textarea type="text" name="mens" id="mensaje" placeholder="Escriba aquí su mensaje" rows="12"></textarea>
+
+			<button type="submit" id="enviar">ENVIAR</button>
+		</form>
+	</div>
+</body>
+</html>

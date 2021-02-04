@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Laura Matía Estépar">
+    <meta name="generator" content="PhpStorm 2019.3">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Formularios I">
+    <meta name="description" content="Formularios I">
+    <meta name="keywords" content="html, daw, desarrollo web, repaso">
+    <link rel="stylesheet" href="../css/miestilo.css" type="text/css">
+    <title>Formularios I</title>
+</head>
+<body>
+<div id="menu">
+    <a href="08-tablas-2.html"><< Anterior</a> |
+    <a href="../index.html"> Portada</a> |
+    <a href="10-formularios-2.html"> Siguiente >></a>
+</div>
+<h1 id="titulo">Formularios I</h1>
+<hr>
+<form name="form1" method="post" enctype="text/plain" action="mailto:lmatia@alumnos.imf.com">
+    <table border="2px">
+        <tr>
+            <td>
+                <h3>Nombre</h3>
+                <input type="text" name="nombre" maxlength="30" value="">
+                <br>
+                <h3>Apellidos</h3>
+                <input type="text" name="apellidos" maxlength="80" value="">
+                <br>
+                <h3>Contraseña</h3>
+                <input type="password" name="pass" maxlength="10" value="">
+                <br>
+                <h3>DNI</h3>
+                <input type="text" name="dni" maxlength="9" value="">
+            </td>
+            <td>
+                <h3>Sexo</h3>
+                <input type="radio" name="sexo" value="Hombre" checked>Hombre
+                <br>
+                <input type="radio" name="sexo" value="Mujer">Mujer
+                <br>
+                <h3>País</h3>
+                <select id="lista" name="pais">
+                    <option value="Sin seleccionar" selected>- selecciona -</option>
+                    <option value="España">España</option>
+                    <option value="Francia">Francia</option>
+                    <option value="Italia">Italia</option>
+                    <option value="Alemania">Alemania</option>
+                    <option value="Reino Unido">Reino Unido</option>
+                </select>
+                <br>
+                <h3>Temas de interés</h3>
+                <p>*Puedes seleccionar más de una opción si mantienes pulsada la tecla CTRL</p>
+                <select id="lista2" name="temas" size="4" multiple="multiple">
+                    <option value="Nuevas tecnologías">Nuevas tecnologías</option>
+                    <option value="Deporte">Deporte</option>
+                    <option value="Turismo">Turismo</option>
+                    <option value="Informática de consumo">Informática de consumo</option>
+                    <option value="Decoración">Decoración</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="checkbox" name="boletin" checked>
+                <i>Suscribirme al boletín de novedades</i>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" name="boton1" value="Enviar datos >>">
+                <input type="reset" name="boton1" value="<< Borrar datos">
+            </td>
+        </tr>
+    </table>
+</form>
+<br><br><br>
+<hr>
+<p align="right"><a href="#titulo">SUBIR</a></p>
+</body>
+</html>

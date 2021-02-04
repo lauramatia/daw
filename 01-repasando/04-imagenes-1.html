@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Laura Matía Estépar">
+    <meta name="generator" content="PhpStorm 2019.3">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Imagenes I">
+    <meta name="description" content="Imagenes I">
+    <meta name="keywords" content="html, daw, desarrollo web, repaso">
+    <link rel="stylesheet" href="../css/miestilo.css" type="text/css">
+    <title>Imagenes I</title>
+</head>
+<body>
+<div id="menu">
+    <a href="03-enlaces.html"><< Anterior</a> |
+    <a href="../index.html"> Portada</a> |
+    <a href="05-imagenes-2.html"> Siguiente >></a>
+</div>
+<h1 id="titulo">Sobre las imágenes</h1>
+<hr>
+<pre>La etiqueta fundamental para insertar una imagen en una página web es <<b>img</b>>.</pre>
+<img src="../img/06385_29.png" alt="una imagen">
+<pre>Sin embargo, solo con la etiqueta no es suficiente, necesitamos insertar los atributos básicos que me van a
+permitir "conectar" con la imagen en sí y mostrar cierta información relativa a la
+imagen en el caso de que la imagen no se cargue o por cuestiones de accesibilidad.</pre>
+<h3>Dichos atributos fundamentales son:</h3>
+<ul>
+    <li><b>SRC</b> = "Ruta a la imagen"</li>
+    <li><b>ALT</b> = "Descripción de la imagen"</li>
+    <li><b>WIDTH</b> = "Ancho de la imagen en px o %"</li>
+    <li><b>HEIGHT</b> = "Altura de la imagen en px o %"</li>
+</ul>
+<pre>Por lo tanto una etiqueta básica completa para insertar la captura que te muestro a continuación quedaría así:</pre>
+<h3><<b>img src="captura.jpg" alt="captura de pantalla de mi web favorita: www.miweb.es"</b>></h3>
+<img src="../img/Captura2.jpg" alt="una imagen" width="300" height="167" align="left" hspace="20">
+<pre>Otros atributos muy utilizados pero no recomendados a día de hoy para la
+maquetación (mejor con css), pero que todavía se ven en código de manera
+frecuente son:
+<ul><li><b>HSPACE</b> = "Define un margen horizontal, por ambos lados de la imagen"</li><li><b>VSPACE</b> = "Define un margen horizontal, por ambos lados de la imagen"</li><li><b>ALIGN</b> = "Alineación de la imagen", este atributo admite varios valores pero
+    los más comunes son <b>left</b> y <b>right</b></li>
+</ul>
+
+    Sin embargo para alinear la imagen, la etiqueta imagen debe estar en el código por delante de la primera letra de la
+    primera línea de párrafo u objeto al que se quiere alinear, es decir, la etiqueta que yo he empleado para la imagen de
+    la bombilla es la siguiente:
+
+            <<b>img src="/bombilla.jpg" width="300" height="189" alt="" align="left" hspace="20"</b>></pre>
+<hr>
+<p align="right"><a href="#titulo">SUBIR</a></p>
+</body>
+</html>
